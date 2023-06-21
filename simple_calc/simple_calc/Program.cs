@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace simple_calc
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
@@ -47,15 +47,8 @@ namespace simple_calc
 
                 else if (oper == '/')
                 {
-		if (a != 0)
-		{	
                    		total = a / b;
                     		Console.WriteLine("Деление " + a + " на " + b + " равно " + total + ".");
-                	}
-		else
-		{
-			Console.WriteLine("Деление на ноль невозможно");
-		}
 	}
                 else
                 {
