@@ -47,15 +47,8 @@ namespace simple_calc
 
                 else if (oper == '/')
                 {
-		if (a != 0)
-		{	
-                   		total = a / b;
-                    		Console.WriteLine("Деление " + a + " на " + b + " равно " + total + ".");
-                	}
-		else
-		{
-			Console.WriteLine("Деление на ноль невозможно");
-		}
+                    total = a / b;
+                    Console.WriteLine("Деление " + a + " на " + b + " равно " + total + ".");
 	}
                 else
                 {
