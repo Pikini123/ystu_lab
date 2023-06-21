@@ -62,7 +62,7 @@ namespace simple_calc
                 {
                     Console.WriteLine("Неизвестный оператор.");
                 }
-                Console.WriteLine("Вы хотите продолжить работу с калькулятором? (д/н)");
+                Console.WriteLine("Вы хотите продолжить работу с калькулятором? Пока (д/н)");
                 again = Convert.ToChar(Console.ReadLine()); 
             }
         }
